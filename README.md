@@ -98,6 +98,6 @@ pipeline.fit时报错，可能是因为虚拟机IP被自己改了，自己备份
 
 sudo vi /etc/hosts
 
-IP （空格） spark主节点名 【多数时候是修改旧IP地址】
+IP （空格） machineName 【多数时候是修改旧IP地址】
 
 退出后 /etc/init.d/network restart
